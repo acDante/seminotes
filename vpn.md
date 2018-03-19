@@ -4,7 +4,7 @@ Focus: propagating structured information across video frames
 Applications: semantic segmentation; depth estimation
 
 ### Methods
-Our methods combine two components:
+This method combines two components:
 - temporal bilateral network 
   - perform image-adaptive spatio-temporal dense filtering
   - connect densely pixelwise to propagate pixel information across frames
@@ -13,7 +13,7 @@ Our methods combine two components:
 - spatial CNN 
   
 
-### Previous Works & our contribution
+### Previous Works & their contribution
 optimization based techniques
 contribution: improve the computational efficiency and prediction accuracy 
 perform better and faster in video object segmentation and semantic label propogation tasks
