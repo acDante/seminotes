@@ -44,3 +44,4 @@ Pros:
 - End-to-end trainable
   - can be used in other deep network architectures
 - Faster and more accurate
+
