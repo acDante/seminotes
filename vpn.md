@@ -66,7 +66,9 @@ Experiment setting
 - three metrics: Intersection over Union score, Contour accuracy, Temporal instability
 
 ### My questions
-1. What is the intuition behind the permutohedral lattice space ? What does a point in the lattice space represent ?
-2. What is the loss function used for foreground mask propagation ?
-3. What is "superpixel sampling" ?
-
+1. What is the intuition behind the permutohedral lattice space ? What does a point in the lattice space represent ? 
+2. Why does the method perform bilateral filtering in this permutohedral lattice space ? Why does it work ? Why is it image-adaptive
+Not quite understand the process of Bilateral Layer
+3. What is the loss function used for foreground mask propagation ?
+4. What does it mean by "superpixel sampling" ?
+5. What is the output of the CNN layer, is it the mask for a certain pixel ?
