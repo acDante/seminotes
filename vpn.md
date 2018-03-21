@@ -6,6 +6,15 @@ our Solution: adapt the connectivity of bilateral network to video sequences
 
 Applications: semantic segmentation; depth estimation
 
+### Inspiration
+```
+- Fast Bilateral Upsampling across Frames
+The bilateral filtering operation can be viewed as a computation in a higher dimensional space
+
+- Learnable Bilateral Filter
+The generalized permutohedral lattice filter can be learned via back-propagation
+```
+
 ### Methods
 This method combines two components:
 - temporal bilateral network 
@@ -17,7 +26,11 @@ Why bilateral network ?
 
 ```
 - spatial CNN 
-  
+  - refine the information 
+> Three steps in Bilateral Convolution Layer(BCL)
+> 1. splating: map into permutohedral lattice space
+> 2. convolving: bilateral filtering (parameters learned by back propagation)
+> 3. slicing: map back to input space
 
 ### Previous Works & their contribution
 optimization based techniques
@@ -30,9 +43,8 @@ perform better and faster in video object segmentation and semantic label propog
   - this paper's focus: learn propagation filters in the high-dimensional bilateral space
   1. more generic
   2. allow integration into deep neural network
-  3. rely only on offline training 
+  3. rely only on offline training (previous frames), can be adapted to online processing
 - unsupervised techniques
-
 
 ### Pros & Cons
 Pros:
@@ -44,4 +56,17 @@ Pros:
 - End-to-end trainable
   - can be used in other deep network architectures
 - Faster and more accurate
+
+### Their work
+1. use six dimensional feature for bilateral fitering : (x,y,r,g,b,t)^T
+2. optical flow estimate: shift the pixel position features by their optical flow displacement vectors (referred as "VPN flwo")
+
+### Experiment and results
+Experiment setting
+- three metrics: Intersection over Union score, Contour accuracy, Temporal instability
+
+### My questions
+1. What is the intuition behind the permutohedral lattice space ? What does a point in the lattice space represent ?
+2. What is the loss function used for foreground mask propagation ?
+3. What is "superpixel sampling" ?
 
