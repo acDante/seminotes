@@ -40,12 +40,12 @@ Two trade-off:
   
 - paralelizable, fast (generate visually similar results to WLS filter with a small number of iteration)
 - general ?
-  1. other tone curves can be easily integrated to our method
-  2. can be easily extended to perform temporal filtering
+    1. other tone curves can be easily integrated to our method
+    2. can be easily extended to perform temporal filtering
 - can be applied to low light sequences with fewer camera noises
 
 #### Cons:
-  - # of neighbor frames is chosen empirically
+  - number of neighbor frames is chosen empirically
   - only support single detail layer (while multiple detail layers are needed at different contrast scales)
   - Susceptible to visual artifacts due to the errors and limits of the optical flow 
 
