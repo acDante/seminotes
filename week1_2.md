@@ -63,3 +63,11 @@ with fewer temporal artifacts
 3. What does it mean by "use forward and backward optical flow estimates to warp each frame's temporal neighbor" ?
 4. How to compute the spatial permeability map? What is the intuition behind "diffusion length" and "permeability weight"in spatial filtering ?
 5. What 
+
+
+### Feedback and advice on the presentation 
+- pay attention to the logic of introducing new topics
+- show images bigger 
+- Do not cover too much information/math in one slide, try to control the attention of the audience
+- Do not go into deep details for the mth
+- add citations 
