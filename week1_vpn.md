@@ -32,6 +32,7 @@ Why bilateral network ?
 > 2. convolving: bilateral filtering (parameters learned by back propagation)
 > 3. slicing: map back to input space
 
+### Related Work 
 ### Previous Works & their contribution
 optimization based techniques
 contribution: improve the computational efficiency and prediction accuracy 
@@ -72,3 +73,5 @@ Not quite understand the process of Bilateral Layer
 3. What is the loss function used for foreground mask propagation ?
 4. What does it mean by "superpixel sampling" ?
 5. What is the output of the CNN layer, is it the mask for a certain pixel ?
+
+### 
