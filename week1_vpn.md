@@ -74,4 +74,10 @@ Not quite understand the process of Bilateral Layer
 4. What does it mean by "superpixel sampling" ?
 5. What is the output of the CNN layer, is it the mask for a certain pixel ?
 
-### 
+### Feedback and advice on the presentation :-)
+1. begin with some introduction about the topic/paper
+2. enhance the important points in the slides
+3. add referernce  
+4. explain important graph with math
+5. shorten the recap parts, focus on the proposed method in the paper, timing ! 
+6. Evaluation part: show less and guide the audience step by step when comparing different methods with graph
