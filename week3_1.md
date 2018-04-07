@@ -1,4 +1,4 @@
-# Interactive Design of 3D-Printable Robotic Creatures
+## Interactive Design of 3D-Printable Robotic Creatures
 ### Main Topics
 interactive design system that allows casual users to quickly design 3D-printable robotic creatures
 - generate stable motions for legged robots by solving a trajectory optimization problem
